@@ -1,0 +1,31 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: black;
+  color: #0ff;
+}
+
+.app header {
+  padding: 1rem;
+  text-align: center;
+  background-color: #111;
+}
+
+.app nav a {
+  color: #0ff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+}
+
+.app nav a.active {
+  border-bottom: 2px solid #0ff;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #111;
+}
